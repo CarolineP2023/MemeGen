@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meme generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <h2>Fill out the form to create your own meme</h2>
+<section id="form">
+    <form >
+
+        <p>
+            <label for="text"> Image URL: </label>
+            <input type="text" id="url-input"  placeholder="Paste URL" name="url">
+        </p>
+
+        <p class="text-input">
+            <label for="top-input"> Enter top text: </label>
+            <input type="text" id="top-text" placeholder="Text" name="top-input">
+        </p>
+
+        <p class="text-input">
+            <label for="bottom-input"> Enter bottom text: </label>
+            <input type="text" id="bottom-text" placeholder="Text" name="bottom-input">
+        </p>
+
+        <p>
+            <label for="font-size"> Select font size: </label>
+            <input type="range" id="size"  name="font-size" min="10" max="30">
+        </p>
+
+        <p>
+            <label for="color-input"> Select font color: </label>
+            <input type="color" id="color"  name="color-input">
+        </p>
+
+        <p>
+            <button id="submit">Generate Meme</button>
+        </p>
+
+    </form>
+</section>    
+<section>
+        <div id="meme-canvass">
+       
+        </div>
+</section>
+    <script src="app.js"></script>
+</body>
+</html>

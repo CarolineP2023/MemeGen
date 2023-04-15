@@ -1,0 +1,101 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80)
+   
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-color: rgba(134, 76, 109, 0.44);
+    color: rgb(37, 36, 36);
+    border: solid black 2px;
+    height: 70px;
+}
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+
+}
+
+img{
+    position: relative; 
+    top: 20px; 
+    left: 14px; 
+    border: solid rgb(99, 94, 94) 2px; 
+    z-index: -1; 
+}
+
+.remove{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 305px;
+    left: 305px;
+    background-color: rgb(134, 76, 109);
+    color: white;
+}
+.meme-container {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    height: 340px;
+    width: 340px;
+   left: 270px;
+ 
+ }
+
+
+.top-text{
+    position: absolute;
+    bottom: 260px;
+    left: 30px;   
+}
+
+.bottom-text{
+    position: absolute;
+    top: 77%;
+    left: 30px;
+}   
+
+#url-input
+{
+    width: 600px;
+}
+
+#top-text{ 
+    width: 562px;
+}
+
+#bottom-text{
+    width: 538px;
+} 
+
+ #submit{
+    position: relative;
+    left: 270px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgb(134, 76, 109);
+    color: white; 
+ }   
+
+#form{ 
+    background-color: rgba(134, 76, 109, 0.44);
+    display: flex;
+    justify-content: center; 
+    border: rgb(99, 94, 94) 2px solid;
+     width: 750px; 
+     position: relative; 
+    left: 250px; 
+     bottom: 25px; 
+    font-family: monospace;
+ }
+ 
+
+
